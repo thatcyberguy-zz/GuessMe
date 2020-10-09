@@ -1,5 +1,5 @@
 //File Name: GuessMe.java
-//Author: David Pierre
+//Author: David P
 
 //Guess a Number between 1 and 10
 
