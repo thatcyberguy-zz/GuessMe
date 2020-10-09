@@ -1,11 +1,13 @@
-//File Name: GuessMe
+//File Name: GuessMe.java
 //Author: David Pierre
 
 //Guess a Number between 1 and 10
 
+//Importing libraries
 import java.util.Scanner;
 import java.util.Random; 
 
+//Java class
 public class GuessMe {
 	public static void main(String[] args) {
         // The instance of Random class 
@@ -18,7 +20,7 @@ public class GuessMe {
         guessMe = guess.nextInt();
         // Random Number between 1 to 10
         int rand_int1 = rand.nextInt(10); 
-        //Conditions
+        //Control flow
     if (rand_int1 == guessMe) {
         	
         	System.out.println("Congrats!" + rand_int1 + "Was the correct answer");
@@ -26,9 +28,8 @@ public class GuessMe {
         }
      else {
         	System.out.println("I am sorry! The correct answer was " + rand_int1);
-        }
+        } //End else
       
   
-  
-    } 
-} 
+    } //End main
+} // End GuessMe class
